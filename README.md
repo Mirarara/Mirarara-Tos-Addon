@@ -20,5 +20,4 @@ This addon allow you to report the cooldown of your skill when you used it durin
 /cdalias [name] - Change the Skill Name, leave blank to reset  
 
 ## Screenshot
-
-![]({{site.baseurl}}/http://i.imgur.com/Chf1LwB.jpg)
+![](http://i.imgur.com/Chf1LwB.jpg)
