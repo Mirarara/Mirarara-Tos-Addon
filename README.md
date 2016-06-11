@@ -21,3 +21,5 @@ This addon allow you to report the cooldown of your skill when you used it durin
 
 ## Screenshot
 ![](http://i.imgur.com/Chf1LwB.jpg)
+
+t. Comfy
