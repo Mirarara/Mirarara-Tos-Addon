@@ -18,3 +18,7 @@ This addon allow you to report the cooldown of your skill when you used it durin
 /cdreset - Reset all individual toggle for indicator  
 /cddefault [on/off] - All skill will/won't be reported by default  
 /cdalias [name] - Change the Skill Name, leave blank to reset  
+
+## Screenshot
+
+![]({{site.baseurl}}/http://i.imgur.com/Chf1LwB.jpg)
