@@ -4,9 +4,9 @@ This addon allow you to report the cooldown of your skill when you used it durin
 
 ## Instruction:  
 **DOWNLOAD THE ADDON FROM [RELEASE](https://github.com/Mirarara/ToS-SkillCD/releases) PAGE**  
-1. Copy Data and Addons folder into your Tree of ERP's folder.
-2. If you don't have Excrulon's addon manager installed, copy the release folder inside 'Do not Copy' folder into your Tree of ERP's folder.
-3. Delete skillcd.json in addons/skillcd if the addon is not loading.
+1. Copy Data and Addons folder into your Tree of ERP's folder.  
+2. If you don't have Excrulon's addon manager installed, copy the release folder inside 'Do not Copy' folder into your Tree of ERP's folder.  
+3. Delete skillcd.json in addons/skillcd if the addon is not loading.  
 
 ## Command List:  
 /cdset - Toggle On/Off the indicator  
