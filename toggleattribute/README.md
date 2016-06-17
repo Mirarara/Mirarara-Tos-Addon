@@ -1,5 +1,5 @@
 # Toggle Attribute v1.0
-This addon allow you to toggle your attribute with chat command, which can be combined with chat macro to control your attribute easily.
+This addon allow you to toggle your attribute with chat command, such as /ta 1, which can be combined with chat macro to control your attribute easily. Type /tahelp for command list.
 
 ## Instruction: 
 **DOWNLOAD THE ADDON FROM [RELEASE](https://github.com/Mirarara/Mirarara-Tos-Addon/releases) PAGE**  

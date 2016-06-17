@@ -1,0 +1,16 @@
+[
+    {
+        "name" : "Toggle Attribute",
+        "file" : "toggleattribute",
+        "extension" : "ipf",
+        "fileVersion" : "v1.0.0",
+        "releaseTag" : "TAv1.0am",
+        "unicode" : "?",
+        "description" : "This addon allow you to toggle your attribute with chat command, such as /ta 1, which can be combined with chat macro to control your attribute easily. Type /tahelp for command list.",
+        "tags" : [
+            "attribute",
+			"QoL",
+			"comfy"
+        ]
+    },
+]
