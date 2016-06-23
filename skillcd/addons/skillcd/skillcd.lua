@@ -91,6 +91,7 @@ function QUICKSLOTNEXPBAR_SLOT_USE_CD(frame, slot, argStr, argNum)
 					ui.Chat('/g '..skillname..' in '..timeinsec..' seconds.');
 				elseif math.floor(g.settings.showmsg) == 4 then
 					ui.Chat('!!'..skillname..' in '..timeinsec..' seconds.');
+					ReserveScript('ui.Chat("!!")', timeinsec);
 				end
 			g.clock[realname] = os.clock();
 			end	
