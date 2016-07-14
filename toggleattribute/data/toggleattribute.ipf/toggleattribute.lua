@@ -34,19 +34,23 @@ function g.ta(arg)
 	local name = g.settings.attribute[num]['name'];
 	local id = g.settings.attribute[num]['id'];
 	
+	local topFrame = ui.GetFrame('skilltree');
+	topFrame:SetUserValue("CLICK_ABIL_ACTIVE_TIME",imcTime.GetAppTime()-10);
+	
 	-- geting the attribute instance
 	local abil = session.GetAbility(id);
 	
 	if abil then
 		local abilClass = GetIES(abil:GetObject());
 		local state = abilClass.ActiveState;
-		local flag = 'off.';
 		if state == 0 then
-			flag = 'on';
+			CHAT_SYSTEM(abilClass.Name..' is switched on.');
+		elseif state == 1 then
+			CHAT_SYSTEM(abilClass.Name..' is switched off.');
 		end
-		CHAT_SYSTEM(abilClass.Name..' is switched '..flag);
-		TOGGLE_ABILITY_ACTIVE(nil,nil,name,id);
 	end
+	
+	TOGGLE_ABILITY_ACTIVE(nil,nil,name,id);
 end
 
 function g.taset(arg)
@@ -103,12 +107,12 @@ function g.setupHook(newFunction, hookedFunctionStr, name)
 	end
 end
 
---acutil.slashCommand('/tareload', g.reloadta);
+acutil.slashCommand('/tareload', g.reloadta);
 acutil.slashCommand('/taset', g.taset);
 acutil.slashCommand('/tahelp', g.tahelp);
 acutil.slashCommand('/ta', g.ta);
 
 g.setupHook(TOGGLE_ABILITY_ACTIVE_TA,'TOGGLE_ABILITY_ACTIVE','TA');
 
-CHAT_SYSTEM('[Toggle Attribute] loaded. /tahelp for help command. t.Comfy');
+CHAT_SYSTEM('[Toggle Attribute] beta loaded. /tahelp for help command. t.Comfy');
 
